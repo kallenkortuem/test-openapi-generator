@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kallenkortuem/test-openapi-generator/issues"
   },
-  "homepage": "https://github.com/kallenkortuem/test-openapi-generator#readme"
+  "homepage": "https://github.com/kallenkortuem/test-openapi-generator#readme",
+  "dependencies": {
+    "@openapitools/openapi-generator-cli": "^2.2.6"
+  }
 }
