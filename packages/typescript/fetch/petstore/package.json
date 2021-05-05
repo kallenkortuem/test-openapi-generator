@@ -1,0 +1,19 @@
+{
+  "name": "@kallenkortuem/openapi-generator-fetch-petstore",
+  "version": "1.0.0",
+  "description": "OpenAPI client for restClient",
+  "author": "OpenAPI-Generator",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "repository":"https://github.com/kallenkortuem/test-openapi-generator",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^3.6"
+  }
+}
